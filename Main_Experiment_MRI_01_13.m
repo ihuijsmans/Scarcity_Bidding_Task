@@ -16,14 +16,8 @@ function Main_Experiment_MRI_01_13(ppnr, block, stagegame, nrtrialcounter, shopt
     % Feedback on each trail of each of the tasks is fixed for all participants. 
     %
     % Last edit:
-    % Deleted instructions, updated images
-    % Possible to restart at any trial
-    % Double checked why 'wrong button' occured on every trial
-    % Change WD in setup_bits instead of main script
-    % Only ask for ppnr if not given
-    % Only make new counterbalancing vars in first run of exp.
-    % Changed counter k and j to more useful names 
-    % Changed number of tokens in account when restarting game
+    %
+    % Tried github
 
     %%                            Set seed                                   %%
 
