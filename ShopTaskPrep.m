@@ -6,7 +6,7 @@ function [vars] = ShopTaskPrep(ppnr)
 %%                      Set working dirs                                 %%
 
 %Stimulus direcotry
-stimdir = [pwd '\Food Stimuli\'];
+stimdir = [pwd '/Food Stimuli/'];
 
 %%                            Prepare Stimuli                            %%
 
