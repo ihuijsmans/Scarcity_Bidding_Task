@@ -18,6 +18,7 @@ function Main_Experiment_MRI_01_13(ppnr, block, stagegame, nrtrialcounter, shopt
     % Last edit:
     %
     % Tried github
+    % Tried a little more :p
 
     %%                            Set seed                                   %%
 
