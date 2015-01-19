@@ -996,7 +996,7 @@ function Main_Experiment_MRI_01_13(ppnr, block, stagegame, nrtrialcounter, shopt
                     response = 0;
                     if presenttime == 0
                         if response == 0
-                            while (response == 0) && ((GetSecs - lastFlipTimestamp )<= timeout)
+                            while (response == 0 && response ~= 15) && ((GetSecs - lastFlipTimestamp )<= timeout)
 
                                 %This is buttonbox code?
                                 [response, keyDownTimestamp] = bitsiboxButtons.getResponse(0.001, true);
